@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>TA-DA!</h1>
+    <h2>Your puppy has been listed!</h2>
+    <% @puppy.each do |puppy| %>
+    <h3><%= puppy.name%></h3>
+    <h3><%= puppy.breed%></h3>
+    <h3><%= puppy.age%></h3>
+    <% end %>
+  </body>
+</html>
